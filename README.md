@@ -1,5 +1,9 @@
 # BookBot
 
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Boot.dev](https://img.shields.io/badge/boot.dev-project-8257e5.svg)](https://www.boot.dev)
+
 BookBot is my first [Boot.dev](https://www.boot.dev) project: a small command-line
 tool that analyzes a plain-text book and prints a report with the total word count
 and how often each letter appears.
@@ -44,6 +48,7 @@ a: 25894
 ├── books/        # plain-text books to analyze
 ├── main.py       # CLI entry point and report formatting
 ├── stats.py      # word counting, character counting, and sorting
+├── LICENSE
 └── README.md
 ```
 
@@ -60,3 +65,7 @@ a: 25894
 ## Books
 
 The books in `books/` are public-domain texts from [Project Gutenberg](https://www.gutenberg.org/).
+
+## License
+
+Released under the [MIT License](LICENSE).
