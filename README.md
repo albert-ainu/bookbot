@@ -41,6 +41,12 @@ a: 25894
 ============= END ===============
 ```
 
+## Running the tests
+
+```sh
+python3 -m unittest
+```
+
 ## Project structure
 
 ```text
@@ -48,6 +54,7 @@ a: 25894
 ├── books/        # plain-text books to analyze
 ├── main.py       # CLI entry point and report formatting
 ├── stats.py      # word counting, character counting, and sorting
+├── test_stats.py # unit tests for stats.py
 ├── LICENSE
 └── README.md
 ```
